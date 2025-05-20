@@ -1,13 +1,230 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Agricultura: Plantio em Cada Estação</title>
+    <!-- Incluindo o Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f4f4f9;
+        }
+        .section-title {
+            text-align: center;
+            margin-top: 30px;
+            color: #2d3e50;
+        }
+        .plant-list {
+            margin-top: 20px;
+        }
+        .footer {
+            background-color: #2d3e50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .section-content {
+            margin-bottom: 40px;
+        }
+        .card-body ul {
+            list-style-type: none;
+        }
+    </style>
 </head>
 <body>
-    
-</body>
-</html>
- 
- 
+    <!-- Cabeçalho -->
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Guia de Agricultura: Plantio em Cada Estação</h1>
+        <p>Por Isabel, Diogo e Emylin</p>
+    </header>
+
+    <!-- Corpo do Site -->
+    <div class="container">
+        <!-- Primavera -->
+        <section id="primavera" class="section-content">
+            <h2 class="section-title">Primavera</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header bg-success text-white">
+                            <h5>Legumes e Verduras</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Alface (luz e temperaturas amenas)</li>
+                                <li>Cenoura (solo leve e bem drenado)</li>
+                                <li>Beterraba (cresce bem em solos ricos em nutrientes)</li>
+                                <li>Espinafre (aprecie o clima mais fresco)</li>
+                                <li>Brócolis (ideal para clima fresco)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header bg-success text-white">
+                            <h5>Frutas</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Morango (sai bem quando plantado na primavera)</li>
+                                <li>Cabeludinha (para clima temperado)</li>
+                                <li>Framboesa (bem adaptada ao clima ameno)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header bg-success text-white">
+                            <h5>Ervas</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Salsa (cresce bem na primavera)</li>
+                                <li>Coentro (gosta de temperaturas amenas)</li>
+                                <li>Manjericão (precisa de luz solar direta)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Verão -->
+        <section id="verao" class="section-content">
+            <h2 class="section-title">Verão</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header bg-warning text-dark">
+                            <h5>Legumes e Verduras</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Tomate (precisa de sol intenso)</li>
+                                <li>Pepino (adapta-se bem ao calor)</li>
+                                <li>Abóbora (cresce rapidamente e necessita de calor)</li>
+                                <li>Milho (precisa de bastante luz solar)</li>
+                                <li>Pimentão (gosta de calor)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header bg-warning text-dark">
+                            <h5>Frutas</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Melancia (gosta de calor intenso e solos bem drenados)</li>
+                                <li>Manga (ideal para climas quentes)</li>
+                                <li>Abacaxi (necessita de clima quente e bem ensolarado)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header bg-warning text-dark">
+                            <h5>Ervas</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Alecrim (resistente ao calor)</li>
+                                <li>Orégano (precisa de muito sol e calor)</li>
+                                <li>Tomilho (gosta de climas secos)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Outono -->
+        <section id="outono" class="section-content">
+            <h2 class="section-title">Outono</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header bg-secondary text-white">
+                            <h5>Legumes e Verduras</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Couve (cresce bem no outono)</li>
+                                <li>Brócolis (ideal para a temperatura amena)</li>
+                                <li>Alho-poró (cresce melhor com temperaturas mais baixas)</li>
+                                <li>Rúcula (excelente para clima fresco)</li>
+                                <li>Couve-flor (gosta do clima ameno do outono)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header bg-secondary text-white">
+                            <h5>Frutas</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Maçã (muitas variedades amadurecem no outono)</li>
+                                <li>Pera (excelente para climas temperados)</li>
+                                <li>Cabeludinha (colheita no outono)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header bg-secondary text-white">
+                            <h5>Ervas</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Sálvia (gosta de temperaturas mais frescas)</li>
+                                <li>Cebolinha (cresce bem no outono)</li>
+                                <li>Manjerona (adapta-se ao clima mais ameno)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Inverno -->
+        <section id="inverno" class="section-content">
+            <h2 class="section-title">Inverno</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header bg-info text-white">
+                            <h5>Legumes e Verduras</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Alho (ideal para plantar no final do outono, colher no inverno)</li>
+                                <li>Cebola (plantada no inverno para colheita na primavera)</li>
+                                <li>Ervilha (gosta do frio e pode ser plantada no inverno)</li>
+                                <li>Nabo (cresce bem no frio)</li>
+                                <li>Repolho (ideal para climas frios)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header bg-info text-white">
+                            <h5>Frutas</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Cítricos (como laranjas e limões, se plantados em estufas ou climas mais quentes)</li>
+                                <li>Kiwis (em áreas mais frias, com proteção contra geadas)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+               
